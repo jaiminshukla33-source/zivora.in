@@ -1,116 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZIVORA — Own the Street</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Helvetica Neue", sans-serif; }
-    body { background-color: #fff; color: #000; }
-    header { text-align: center; padding: 80px 20px; }
-    header h1 { font-size: 56px; font-weight: 700; letter-spacing: 2px; }
-    header p { font-size: 18px; margin-top: 10px; color: #555; }
-    .shop-btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 14px 36px;
-      border: 2px solid #000;
-      text-decoration: none;
-      color: #000;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-    .shop-btn:hover { background-color: #000; color: #fff; }
-    section { padding: 60px 20px; max-width: 1200px; margin: 0 auto; }
-    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; }
-    .product {
-      border: 1px solid #eee;
-      padding: 10px;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-    .product:hover { transform: scale(1.02); }
-    .product img { width: 100%; height: auto; border-radius: 6px; }
-    .product h3 { font-size: 18px; margin-top: 12px; font-weight: 600; }
-    .product p { margin-top: 6px; color: #555; }
-    .buy-btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 28px;
-      background-color: #000;
-      color: #fff;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 600;
-      border-radius: 4px;
-    }
-    footer {
-      text-align: center;
-      padding: 60px 20px;
-      border-top: 1px solid #eee;
-    }
-    footer a {
-      color: #000;
-      text-decoration: none;
-      font-weight: 500;
-      margin: 0 10px;
-    }
-    footer a:hover { text-decoration: underline; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>ZIVORA</h1>
-    <p>Own the Street.</p>
-    <a href="#shop" class="shop-btn">Shop Now</a>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZIVORA | Streetwear & Aesthetic</title>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #ffffff;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #000;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 40px;
+      }
+      .product {
+        background: #f5f5f5;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+      }
+      .product:hover {
+        transform: translateY(-6px);
+      }
+      .product img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+      }
+      .info {
+        padding: 15px;
+        text-align: center;
+      }
+      .info h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+      }
+      .info p {
+        margin: 5px 0;
+        font-weight: 500;
+      }
+      .whatsapp-btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease;
+      }
+      .whatsapp-btn:hover {
+        background-color: #1ebc57;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #000;
+        color: white;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>ZIVORA</header>
 
-  <section id="shop">
-    <h2 style="text-align:center; font-size:28px; margin-bottom:40px;">Shop the Collection</h2>
-    <div class="products">
+    <section class="container">
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Zivora Tee">
-        <h3>Classic Street Tee</h3>
-        <p>From ₹599–₹999</p>
-        <a class="buy-btn" href="https://wa.me/919316263171?text=Hey!%20I%20want%20to%20buy%20the%20Classic%20Street%20Tee%20from%20ZIVORA.">Buy on WhatsApp</a>
+        <img src="FireBlood.jpg" alt="DRIPXX Tee" />
+        <div class="info">
+          <h3>DRIPXX</h3>
+          <p>₹799</p>
+          <a
+            href="https://wa.me/919316263171?text=I'm%20interested%20in%20the%20DRIPXX%20Tee"
+            class="whatsapp-btn"
+            >Order on WhatsApp</a
+          >
+        </div>
       </div>
 
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=800&q=80" alt="Zivora Tee">
-        <h3>Oversized Street Shirt</h3>
-        <p>From ₹599–₹999</p>
-        <a class="buy-btn" href="https://wa.me/919316263171?text=Hey!%20I'm%20interested%20in%20the%20Oversized%20Street%20Shirt%20from%20ZIVORA.">Buy on WhatsApp</a>
+        <img src="ColorPopDog.jpg" alt="STATIC Tee" />
+        <div class="info">
+          <h3>STATIC</h3>
+          <p>₹899</p>
+          <a
+            href="https://wa.me/919316263171?text=I'm%20interested%20in%20the%20STATIC%20Tee"
+            class="whatsapp-btn"
+            >Order on WhatsApp</a
+          >
+        </div>
       </div>
 
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1534126511673-b6899657816a?auto=format&fit=crop&w=800&q=80" alt="Zivora Tee">
-        <h3>Urban Graphic Tee</h3>
-        <p>From ₹599–₹999</p>
-        <a class="buy-btn" href="https://wa.me/919316263171?text=Hey!%20I'd%20like%20to%20buy%20the%20Urban%20Graphic%20Tee%20from%20ZIVORA.">Buy on WhatsApp</a>
+        <img src="DemonSpirit.jpg" alt="NOVA Tee" />
+        <div class="info">
+          <h3>NOVA</h3>
+          <p>₹999</p>
+          <a
+            href="https://wa.me/919316263171?text=I'm%20interested%20in%20the%20NOVA%20Tee"
+            class="whatsapp-btn"
+            >Order on WhatsApp</a
+          >
+        </div>
       </div>
 
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80" alt="Zivora Tee">
-        <h3>Midnight Black Tee</h3>
-        <p>From ₹599–₹999</p>
-        <a class="buy-btn" href="https://wa.me/919316263171?text=Hey!%20I'd%20like%20to%20buy%20the%20Midnight%20Black%20Tee%20from%20ZIVORA.">Buy on WhatsApp</a>
+        <img src="LostLove.jpg" alt="ROGUE Tee" />
+        <div class="info">
+          <h3>ROGUE</h3>
+          <p>₹699</p>
+          <a
+            href="https://wa.me/919316263171?text=I'm%20interested%20in%20the%20ROGUE%20Tee"
+            class="whatsapp-btn"
+            >Order on WhatsApp</a
+          >
+        </div>
       </div>
 
       <div class="product">
-        <img src="https://images.unsplash.com/photo-1520975922131-d06a2c1a48a6?auto=format&fit=crop&w=800&q=80" alt="Zivora Tee">
-        <h3>Essential White Tee</h3>
-        <p>From ₹599–₹999</p>
-        <a class="buy-btn" href="https://wa.me/919316263171?text=Hey!%20I'm%20interested%20in%20the%20Essential%20White%20Tee%20from%20ZIVORA.">Buy on WhatsApp</a>
+        <img src="VoltageXX.jpg" alt="VOLT Tee" />
+        <div class="info">
+          <h3>VOLT</h3>
+          <p>₹799</p>
+          <a
+            href="https://wa.me/919316263171?text=I'm%20interested%20in%20the%20VOLT%20Tee"
+            class="whatsapp-btn"
+            >Order on WhatsApp</a
+          >
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <p>© 2025 ZIVORA. All rights reserved.</p>
-    <p>
-      <a href="https://www.instagram.com/wearzivora.in" target="_blank">Instagram</a> |
-      <a href="https://wa.me/919316263171" target="_blank">WhatsApp</a>
-    </p>
-  </footer>
-</body>
+    <footer>© 2025 ZIVORA | Streetwear & Aesthetic</footer>
+  </body>
 </html>
