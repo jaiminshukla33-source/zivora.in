@@ -1,141 +1,41 @@
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ZIVORA — Streetwear & Aesthetic Clothing</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-color: #f7f7f7;
-      color: #111;
-    }
-    header {
-      background-color: #000;
-      color: white;
-      text-align: center;
-      padding: 20px 0;
-      font-size: 26px;
-      letter-spacing: 2px;
-      font-weight: 700;
-    }
-    .slogan {
-      text-align: center;
-      font-size: 16px;
-      color: #666;
-      margin-bottom: 20px;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
-      padding: 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .product {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      text-align: center;
-      transition: 0.3s;
-      padding-bottom: 15px;
-    }
-    .product:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    }
-    .product img {
-      width: 100%;
-      height: 280px;
-      object-fit: cover;
-      border-radius: 12px 12px 0 0;
-    }
-    .product h3 {
-      margin: 10px 0 5px;
-      font-size: 18px;
-      color: #111;
-    }
-    .product p {
-      margin: 0;
-      color: #555;
-      font-weight: 600;
-      font-size: 16px;
-    }
-    .product a {
-      display: inline-block;
-      margin-top: 10px;
-      background: #111;
-      color: #fff;
-      padding: 8px 16px;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .product a:hover {
-      background: #333;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
-      background: #111;
-      color: #fff;
-      margin-top: 30px;
-    }
-  </style>
-</head>
-<body>
-
-  <header>ZIVORA</header>
-  <p class="slogan">Cool. Minimal. Made for Gen Z.</p>
-
-  <section class="products">
+<section id="products" class="products">
+  <h2 class="section-title">ZIVORA Exclusive Tees</h2>
+  <div class="product-grid">
 
     <div class="product">
-      <img src="images/ZenSoul.jpg" alt="Zen Soul Tee">
-      <h3>Zen Soul Tee</h3>
-      <p>₹699</p>
-      <a href="https://wa.me/9316263171?text=I'm%20interested%20in%20the%20Zen%20Soul%20Tee%20from%20Zivora">Order on WhatsApp</a>
+      <img src="public/Zivora Tee.jpg" alt="Zivora Tee">
+      <h3>Zivora Tee</h3>
+      <p class="price">₹699 - ₹999</p>
+      <a href="https://wa.me/9316263171?text=I want to order Zivora Tee" class="btn">Order on WhatsApp</a>
     </div>
 
     <div class="product">
-      <img src="images/BlazeWolf.jpg" alt="Blaze Wolf Tee">
-      <h3>Blaze Wolf Tee</h3>
-      <p>₹799</p>
-      <a href="https://wa.me/9316263171?text=I'm%20interested%20in%20the%20Blaze%20Wolf%20Tee%20from%20Zivora">Order on WhatsApp</a>
+      <img src="public/Zivora tee.jpg" alt="Zivora tee">
+      <h3>Zivora tee</h3>
+      <p class="price">₹699 - ₹999</p>
+      <a href="https://wa.me/9316263171?text=I want to order Zivora tee" class="btn">Order on WhatsApp</a>
     </div>
 
     <div class="product">
-      <img src="images/DragonSpirit.jpg" alt="Dragon Spirit Tee">
-      <h3>Dragon Spirit Tee</h3>
-      <p>₹899</p>
-      <a href="https://wa.me/9316263171?text=I'm%20interested%20in%20the%20Dragon%20Spirit%20Tee%20from%20Zivora">Order on WhatsApp</a>
+      <img src="public/Zivora T Shirt.jpg" alt="Zivora T Shirt">
+      <h3>Zivora T Shirt</h3>
+      <p class="price">₹699 - ₹999</p>
+      <a href="https://wa.me/9316263171?text=I want to order Zivora T Shirt" class="btn">Order on WhatsApp</a>
     </div>
 
     <div class="product">
-      <img src="images/Amor.jpg" alt="Amor Tee">
-      <h3>Amor Tee</h3>
-      <p>₹799</p>
-      <a href="https://wa.me/9316263171?text=I'm%20interested%20in%20the%20Amor%20Tee%20from%20Zivora">Order on WhatsApp</a>
+      <img src="public/Zivora T shirt.jpg" alt="Zivora T shirt">
+      <h3>Zivora T shirt</h3>
+      <p class="price">₹699 - ₹999</p>
+      <a href="https://wa.me/9316263171?text=I want to order Zivora T shirt" class="btn">Order on WhatsApp</a>
     </div>
 
     <div class="product">
-      <img src="images/MidnightAura.jpg" alt="Midnight Aura Tee">
-      <h3>Midnight Aura Tee</h3>
-      <p>₹999</p>
-      <a href="https://wa.me/9316263171?text=I'm%20interested%20in%20the%20Midnight%20Aura%20Tee%20from%20Zivora">Order on WhatsApp</a>
+      <img src="public/Zivora t shirt.jpg" alt="Zivora t shirt">
+      <h3>Zivora t shirt</h3>
+      <p class="price">₹699 - ₹999</p>
+      <a href="https://wa.me/9316263171?text=I want to order Zivora t shirt" class="btn">Order on WhatsApp</a>
     </div>
 
-  </section>
-
-  <footer>
-    © 2025 ZIVORA. All Rights Reserved.  
-    <br>Follow us on Instagram: <a href="https://www.instagram.com/wearzivora.in" style="color:#fff;text-decoration:underline;">@wearzivora.in</a>
-  </footer>
-
-</body>
-</html>
+  </div>
+</section>
